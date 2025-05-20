@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74, 94, 50);
+    margin: 0px;
+}
+h1{
+    border: 5px;
+    border-style: double;
+    text-align: center;
+    background-color: rgb(134, 117, 20);
+    border-color: rgb(143, 236, 120);
+    color: rgb(147, 206, 58);
+    padding:5px;
+    font-size: 50px;
+    margin: 20px;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(52, 60, 39);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: lightgreen;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(13, 78, 13);
+}
+.navbar li{
+    float: left;
+}
+main{
+    margin: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2{
+    color: rgb(124, 176, 56);
+    font-size: 50px;
+    text-align: center;
+    font-family:Georgia;
+}
+p{
+    color: rgb(144, 195, 132);
+    font-size: 30px;
+    text-align: center;
+}
+div.gallery {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    border: 1px solid #32823d;
+    float:left;
+    width: auto;
+    
+}
+div.gallery img {
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+div.desc {
+    padding: 45px;
+    text-align: center;
+    color: lightgreen;
+    background-color: rgb(89, 138, 72);
+}
+ol{
+    color: lightgreen;
+    font-size: 30px;
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type:square;
+    color:rgb(102, 192, 102);
+    padding-top: 10px;
+    font-size: 20px;
+}
+th, td {
+    border: 2px solid #519e57;
+    padding: 12px;
+    text-align: left;
+    color: #7ebf5e;
+}
+th{
+    color: #c9b517;
+}
+table {
+    width: 100%;
+    border-style:dotted;
+    margin-bottom: 30px;
+}
+
+.Numele {
+    font-weight: bold;
+    color: #86f37f;
+}
